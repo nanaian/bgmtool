@@ -1,0 +1,5 @@
+- ensure app runs on macOS & Linux
+- package .app/.dmg for macOS
+- add .desktop for Linux
+- ask about pmdialog2.ttf licensing
+- fix mamar.exe opening alongside a blank terminal window when launched from a GUI on Windows

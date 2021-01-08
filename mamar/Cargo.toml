@@ -1,0 +1,16 @@
+[package]
+name = "mamar"
+version = "0.1.0"
+authors = ["Alex Bates <hi@imalex.xyz>"]
+edition = "2018"
+
+[dependencies]
+conrod_core = "0.71.0"
+conrod_winit = "0.71.0"
+conrod_glium = "0.71.0"
+glium = "0.28"
+winit = "0.23"
+rusttype = { version = "0.8", features = ["gpu_cache"] }
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1.11"
